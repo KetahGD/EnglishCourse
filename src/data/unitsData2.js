@@ -1,5 +1,7 @@
 // src/data/unitsData.js
-// EVOLVE 3 (B1) – Contenido completo de las 12 unidades (vocabulario, gramática, expresiones, writing, speaking, listening y recursos)
+// EVOLVE 3 (B1) – Contenido completo de las 12 unidades
+// Lenguaje simplificado para facilitar la comprensión (nivel B1)
+// La gramática se mantiene extensa y detallada
 
 export const unitsData = [
   // ===================== UNIDAD 1 =====================
@@ -7,46 +9,46 @@ export const unitsData = [
     id: 1,
     title: "Who We Are",
     topic: "People & Personality",
-    desc: "Describing personality, making introductions, and asking polite questions.",
+    desc: "Learn to describe personality, introduce yourself, and ask polite questions.",
     vocabulary: [
       {
         topic: "Adjectives — Describing Personality",
         items: [
-          { word: "brave", pos: "adj", def: "Willing to face danger without fear.", ex: "She was brave enough to speak in front of 500 people." },
-          { word: "cheerful", pos: "adj", def: "Noticeably happy and optimistic.", ex: "He's always cheerful, even on Mondays." },
-          { word: "easygoing", pos: "adj", def: "Relaxed; not easily upset.", ex: "She's so easygoing — she never complains." },
-          { word: "generous", pos: "adj", def: "Gives time or help freely.", ex: "He was generous enough to pay for everyone." },
-          { word: "helpful", pos: "adj", def: "Ready to help; supportive.", ex: "Thanks — you've been really helpful." },
-          { word: "honest", pos: "adj", def: "Always tells the truth; doesn't deceive.", ex: "I appreciate that she's honest with me." },
-          { word: "intelligent", pos: "adj", def: "Smart; quick to understand.", ex: "He's very intelligent and learns fast." },
+          { word: "brave", pos: "adj", def: "Not afraid to face danger.", ex: "She was brave enough to speak in front of 500 people." },
+          { word: "cheerful", pos: "adj", def: "Always happy and positive.", ex: "He's always cheerful, even on Mondays." },
+          { word: "easygoing", pos: "adj", def: "Relaxed; doesn't get upset easily.", ex: "She's so easygoing — she never complains." },
+          { word: "generous", pos: "adj", def: "Gives time, money or help freely.", ex: "He was generous enough to pay for everyone." },
+          { word: "helpful", pos: "adj", def: "Always ready to help.", ex: "Thanks — you've been really helpful." },
+          { word: "honest", pos: "adj", def: "Always tells the truth.", ex: "I appreciate that she's honest with me." },
+          { word: "intelligent", pos: "adj", def: "Smart; learns quickly.", ex: "He's very intelligent and learns fast." },
           { word: "nervous", pos: "adj", def: "Worried or anxious.", ex: "I feel nervous before exams." },
-          { word: "reliable", pos: "adj", def: "Can be trusted to do what they say.", ex: "If you need someone reliable, ask Jodi." },
-          { word: "selfish", pos: "adj", def: "Cares only about their own needs.", ex: "It was selfish of him to eat it all." },
-          { word: "serious", pos: "adj", def: "Not joking; thoughtful.", ex: "He's serious about his studies." },
-          { word: "sociable", pos: "adj", def: "Enjoys being with people; friendly.", ex: "He's very sociable and knows everyone." }
+          { word: "reliable", pos: "adj", def: "People can trust you.", ex: "If you need someone reliable, ask Jodi." },
+          { word: "selfish", pos: "adj", def: "Only cares about himself/herself.", ex: "It was selfish of him to eat it all." },
+          { word: "serious", pos: "adj", def: "Thoughtful; not joking.", ex: "He's serious about his studies." },
+          { word: "sociable", pos: "adj", def: "Likes being with people.", ex: "He's very sociable and knows everyone." }
         ]
       },
       {
         topic: "Verbs — Personal Information",
         items: [
-          { word: "be born", pos: "v phr", def: "To come into the world (birth).", ex: "She was born in Mexico City." },
+          { word: "be born", pos: "v phr", def: "To come into the world.", ex: "She was born in Mexico City." },
           { word: "be raised", pos: "v phr", def: "To grow up in a place or family.", ex: "He was raised near the coast." },
           { word: "be into", pos: "v phr", def: "To be very interested in something.", ex: "She's into photography." },
           { word: "be married", pos: "v phr", def: "To have a husband or wife.", ex: "He is married." },
           { word: "be single", pos: "v phr", def: "Not married.", ex: "She is single." },
           { word: "live alone", pos: "v phr", def: "To live without other people.", ex: "He lives alone downtown." },
-          { word: "live with my family", pos: "v phr", def: "To live with parents/relatives.", ex: "I live with my family." },
-          { word: "celebrate", pos: "verb", def: "To mark a special occasion.", ex: "They celebrate their anniversary every year." },
-          { word: "retire", pos: "verb", def: "To stop working permanently.", ex: "She retired at 65." }
+          { word: "live with my family", pos: "v phr", def: "To live with parents or relatives.", ex: "I live with my family." },
+          { word: "celebrate", pos: "verb", def: "To do something special for an occasion.", ex: "They celebrate their anniversary every year." },
+          { word: "retire", pos: "verb", def: "To stop working permanently (usually at an older age).", ex: "She retired at 65." }
         ]
       },
       {
         topic: "Collocations & Modern Usage",
         items: [
-          { word: "go-getter", pos: "noun", def: "Persona ambiciosa y motivada.", ex: "She's a real go-getter; she started her own business at 25.", register: "Neutral a informal profesional" },
-          { word: "larger-than-life personality", pos: "noun phrase", def: "Persona muy extrovertida y carismática.", ex: "His larger-than-life personality always lights up the room.", register: "Más descriptivo/formal coloquial" },
-          { word: "people person", pos: "noun", def: "Alguien que disfruta interactuando con otros.", ex: "Sales roles suit her because she's such a people person.", register: "Colloquial común" },
-          { word: "down-to-earth", pos: "adj.", def: "Práctico, sencillo, sin pretensiones.", ex: "Despite his fame, he's surprisingly down-to-earth.", register: "Colloquial positivo" }
+          { word: "go-getter", pos: "noun", def: "An ambitious and motivated person.", ex: "She's a real go-getter; she started her own business at 25.", register: "Neutral to informal" },
+          { word: "larger-than-life personality", pos: "noun phrase", def: "A very extroverted and charismatic person.", ex: "His larger-than-life personality always lights up the room.", register: "Descriptive/formal colloquial" },
+          { word: "people person", pos: "noun", def: "Someone who enjoys interacting with others.", ex: "Sales roles suit her because she's such a people person.", register: "Common colloquial" },
+          { word: "down-to-earth", pos: "adj.", def: "Practical, simple, without pretension.", ex: "Despite his fame, he's surprisingly down-to-earth.", register: "Positive colloquial" }
         ]
       }
     ],
@@ -148,13 +150,13 @@ export const unitsData = [
     ],
     writing: {
       task: "Professional LinkedIn profile summary",
-      skill: "Crafting a compelling personal brand narrative",
-      description: "Create a 100-150 word professional summary for LinkedIn that showcases your personality, skills, and career aspirations in an authentic way.",
+      skill: "How to write a personal brand narrative",
+      description: "Write a 100-150 word professional summary for LinkedIn. Show your personality, skills, and career goals.",
       scaffolding: [
-        "Hook: Start with a powerful statement about your professional identity or passion.",
-        "Background: Briefly describe your experience, education, or key qualifications.",
-        "Value Proposition: Highlight your unique skills, achievements, or what sets you apart.",
-        "Call to Action: Mention what you're looking for or open to professionally."
+        "Hook: Start with a strong sentence about your professional passion.",
+        "Background: Briefly describe your experience or education.",
+        "Value: Highlight your unique skills and achievements.",
+        "Call to Action: Say what you are looking for (job, network, etc.)."
       ],
       resourceLink: "https://www.linkedin.com/help/linkedin/answer/a1338655"
     },
@@ -166,11 +168,11 @@ export const unitsData = [
     ],
     speaking: {
       focus: "Connected Speech: Elision and Weak Forms",
-      explanation: "Native speakers often reduce or omit sounds in fast speech. For example, 'I am going to the store' becomes 'I'm gonna go to the store.' Practice reducing function words and linking content words smoothly.",
+      explanation: "Native speakers often say words quickly and drop sounds. For example, 'I am going to' becomes 'I'm gonna'. Practice this to sound more natural.",
       examples: ["I am → I'm", "going to → gonna", "want to → wanna", "have to → hafta"],
       classroomActivity: [
-        "Paper Test Mini-Drill: Students hold a piece of paper in front of their mouths. They practice saying full forms (I am going to) versus contracted forms (I'm gonna). The goal is for the paper to move less with correct reductions.",
-        "Role-Play Chains: Pairs of students create a dialogue where one person asks questions using full forms, and the other responds using contracted/reduced forms. Switch roles."
+        "Paper Test: Hold a paper in front of your mouth. Say full forms (I am going to) vs. reduced forms (I'm gonna). The paper should move less with reductions.",
+        "Role-Play: One student asks full questions, the other answers with reductions."
       ],
       resourceLink: "https://rachelsenglish.com/reducing-common-words/"
     },
@@ -182,12 +184,12 @@ export const unitsData = [
     ],
     listening: {
       strategy: "Identifying Signposting Language",
-      explanation: "Listen for phrases that indicate structure or topic shifts. These act as verbal signposts, helping listeners follow the speaker's logic.",
+      explanation: "Listen for phrases that show the structure of a talk. Examples: 'Now, moving on to...' These help you follow the speaker's ideas.",
       actionSteps: [
-        "Listen to a monologue or dialogue (e.g., a podcast introduction).",
-        "Identify phrases that indicate a topic change or new point (e.g., 'Now, moving on to...').",
-        "Write down the main ideas following each signpost.",
-        "Practice using these phrases in your own speaking."
+        "Listen to a podcast introduction.",
+        "Find phrases that introduce a new topic.",
+        "Write down the main idea after each signpost.",
+        "Practice using these phrases yourself."
       ],
       resources: [
         { type: "Video", title: "BBC 6 Minute English - Introductions", url: "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english" },
@@ -206,17 +208,17 @@ export const unitsData = [
     id: 2,
     title: "So Much Stuff",
     topic: "Technology & Possessions",
-    desc: "Describing devices, possessions, and things you've had for a long time.",
+    desc: "Learn to describe devices, possessions, and things you've had for a long time.",
     vocabulary: [
       {
         topic: "Adjectives — Describing Possessions",
         items: [
-          { word: "brand new", pos: "adj", def: "Completely new; never used.", ex: "She bought a brand new laptop." },
+          { word: "brand new", pos: "adj", def: "Completely new, never used.", ex: "She bought a brand new laptop." },
           { word: "damaged", pos: "adj", def: "Broken or harmed.", ex: "The screen was damaged." },
-          { word: "fancy", pos: "adj", def: "Expensive / elaborate.", ex: "A fancy smartwatch." },
-          { word: "outdated", pos: "adj", def: "No longer current.", ex: "My old phone is outdated." },
-          { word: "plain", pos: "adj", def: "Simple; not decorated.", ex: "A plain case." },
-          { word: "special", pos: "adj", def: "Important / meaningful.", ex: "This watch is special." },
+          { word: "fancy", pos: "adj", def: "Expensive or with many details.", ex: "A fancy smartwatch." },
+          { word: "outdated", pos: "adj", def: "Old; not modern anymore.", ex: "My old phone is outdated." },
+          { word: "plain", pos: "adj", def: "Simple; without decoration.", ex: "A plain case." },
+          { word: "special", pos: "adj", def: "Important or meaningful.", ex: "This watch is special." },
           { word: "useful", pos: "adj", def: "Helps you do something.", ex: "A portable charger is useful." },
           { word: "useless", pos: "adj", def: "Not helpful at all.", ex: "That app was useless." }
         ]
@@ -224,23 +226,23 @@ export const unitsData = [
       {
         topic: "Nouns & Verbs — Tech Features",
         items: [
-          { word: "device", pos: "noun", def: "An electronic gadget.", ex: "Sync this app on every device." },
-          { word: "folder", pos: "noun", def: "A place to organize files.", ex: "Put the photos in a folder." },
-          { word: "home screen", pos: "noun", def: "Main display screen.", ex: "I keep key apps on my home screen." },
-          { word: "model", pos: "noun", def: "A particular version.", ex: "Which phone model is it?" },
-          { word: "storage", pos: "noun", def: "Space to save files.", ex: "My phone has 64GB of storage." },
-          { word: "delete", pos: "verb", def: "Permanently remove.", ex: "I had to delete old photos." },
-          { word: "set up", pos: "v phr", def: "Configure to be ready.", ex: "It took an hour to set up my new phone." },
-          { word: "sync", pos: "verb", def: "Update across devices.", ex: "The calendar syncs automatically." }
+          { word: "device", pos: "noun", def: "An electronic gadget (phone, tablet, etc.).", ex: "Sync this app on every device." },
+          { word: "folder", pos: "noun", def: "A place to organize files on a computer.", ex: "Put the photos in a folder." },
+          { word: "home screen", pos: "noun", def: "The main screen of a phone or tablet.", ex: "I keep key apps on my home screen." },
+          { word: "model", pos: "noun", def: "A specific version of a product.", ex: "Which phone model is it?" },
+          { word: "storage", pos: "noun", def: "Space to save files (photos, apps, etc.).", ex: "My phone has 64GB of storage." },
+          { word: "delete", pos: "verb", def: "Remove something permanently.", ex: "I had to delete old photos." },
+          { word: "set up", pos: "v phr", def: "Prepare a device to be used.", ex: "It took an hour to set up my new phone." },
+          { word: "sync", pos: "verb", def: "Update information across devices automatically.", ex: "The calendar syncs automatically." }
         ]
       },
       {
         topic: "Collocations & Modern Usage",
         items: [
-          { word: "cutting-edge technology", pos: "noun phrase", def: "Tecnología de vanguardia.", ex: "The lab uses cutting-edge technology for research.", register: "Formal/Académico" },
-          { word: "state-of-the-art", pos: "adj.", def: "Equipamiento o tecnología altamente avanzada.", ex: "Our new office has a state-of-the-art conference room.", register: "Formal/Profesional" },
-          { word: "user-friendly", pos: "adj.", def: "Fácil de usar.", ex: "This app is incredibly user-friendly for beginners.", register: "Neutral/Comercial" },
-          { word: "tech-savvy", pos: "adj.", def: "Muy hábil con la tecnología.", ex: "Kids today are more tech-savvy than previous generations.", register: "Colloquial/Descriptivo" }
+          { word: "cutting-edge technology", pos: "noun phrase", def: "Very advanced technology.", ex: "The lab uses cutting-edge technology for research.", register: "Formal/Academic" },
+          { word: "state-of-the-art", pos: "adj.", def: "The most advanced equipment or technology.", ex: "Our new office has a state-of-the-art conference room.", register: "Formal/Professional" },
+          { word: "user-friendly", pos: "adj.", def: "Easy to use.", ex: "This app is incredibly user-friendly for beginners.", register: "Neutral/Commercial" },
+          { word: "tech-savvy", pos: "adj.", def: "Very skilled with technology.", ex: "Kids today are more tech-savvy than previous generations.", register: "Colloquial/Descriptive" }
         ]
       }
     ],
@@ -343,12 +345,12 @@ export const unitsData = [
     writing: {
       task: "Product review for an online marketplace (e.g., Amazon)",
       skill: "Persuasive writing with pros and cons",
-      description: "Write a convincing product review balancing positives and negatives to help others make informed decisions.",
+      description: "Write a convincing product review that lists positives and negatives to help other buyers.",
       scaffolding: [
-        "Intro: State the product and your overall rating (e.g., 4 stars).",
-        "Pros: List 2-3 key advantages with specific examples.",
-        "Cons: Mention 1-2 drawbacks honestly but constructively.",
-        "Conclusion: Summarize and state who would benefit most."
+        "Intro: Name the product and your rating (e.g., 4 stars).",
+        "Pros: List 2-3 advantages with examples.",
+        "Cons: Mention 1-2 drawbacks politely.",
+        "Conclusion: Summarize and say who would benefit most."
       ],
       resourceLink: "https://www.grammarly.com/blog/how-to-write-a-product-review/"
     },
@@ -360,11 +362,11 @@ export const unitsData = [
     ],
     speaking: {
       focus: "Schwa Sound Reduction in Function Words",
-      explanation: "Function words like 'a, an, the, of, to' are often pronounced with a schwa (/ə/) in connected speech.",
+      explanation: "Small words like 'a', 'an', 'the', 'of', 'to' are often pronounced with a very short sound /ə/ in natural speech.",
       examples: ["a phone → ə fəʊn", "the app → ðə æp", "to sync → tə sɪŋk"],
       classroomActivity: [
-        "Minimal Pair Bingo: Create bingo cards with sentences differing by schwa presence (e.g., 'I saw *a* plane' vs. 'Anna plane'). Students listen and mark accordingly.",
-        "Dictation with Schwa Challenge: Read sentences at natural speed; students transcribe and identify schwa reductions."
+        "Minimal Pair Bingo: Create bingo cards with sentences that differ by schwa (e.g., 'I saw *a* plane' vs. 'Anna plane'). Listen and mark.",
+        "Dictation: Read sentences at normal speed; students write and find the schwa reductions."
       ],
       resourceLink: "https://www.youtube.com/watch?v=Kvn9NTAUpaw"
     },
@@ -376,12 +378,12 @@ export const unitsData = [
     ],
     listening: {
       strategy: "Tech Glossary Building Through Context",
-      explanation: "When listening to tech reviews or tutorials, new terms appear frequently. Use context clues and repeated exposure to deduce meaning.",
+      explanation: "When you hear new tech words, try to guess the meaning from the situation. Then check with a dictionary.",
       actionSteps: [
-        "Listen to a short tech review video.",
-        "Note unfamiliar terms.",
-        "Discuss with classmates to hypothesize definitions.",
-        "Verify using a dictionary or glossary."
+        "Watch a short tech review video.",
+        "Write down new words you hear.",
+        "Discuss with a classmate: what do they mean?",
+        "Verify with a dictionary."
       ],
       resources: [
         { type: "Video", title: "Marques Brownlee (MKBHD)", url: "https://www.youtube.com/user/marquesbrownlee" },
@@ -400,39 +402,39 @@ export const unitsData = [
     id: 3,
     title: "Getting Around",
     topic: "Cities & Transportation",
-    desc: "City features, public transportation, and giving directions politely.",
+    desc: "Learn to describe city features, use public transportation, and give directions politely.",
     vocabulary: [
       {
         topic: "Nouns — City Features",
         items: [
-          { word: "bridge", pos: "noun", def: "Structure built over water/road to cross.", ex: "The bridge connects the neighborhoods." },
-          { word: "clinic", pos: "noun", def: "Small medical facility.", ex: "There's a clinic nearby." },
-          { word: "embassy", pos: "noun", def: "Government office of a foreign country.", ex: "Go to the embassy for a visa." },
-          { word: "ferry", pos: "noun", def: "Boat that carries passengers.", ex: "The ferry runs every hour." },
-          { word: "hostel", pos: "noun", def: "Cheap accommodation for travelers.", ex: "We stayed at a hostel." },
-          { word: "monument", pos: "noun", def: "Structure to remember history.", ex: "The monument is in the main square." },
-          { word: "sidewalk", pos: "noun", def: "Path next to a road for pedestrians.", ex: "Walk on the sidewalk." },
-          { word: "tunnel", pos: "noun", def: "Underground passage.", ex: "The train goes through a tunnel." }
+          { word: "bridge", pos: "noun", def: "A structure that crosses water or a road.", ex: "The bridge connects the neighborhoods." },
+          { word: "clinic", pos: "noun", def: "A small medical center.", ex: "There's a clinic nearby." },
+          { word: "embassy", pos: "noun", def: "A foreign government's office in another country.", ex: "Go to the embassy for a visa." },
+          { word: "ferry", pos: "noun", def: "A boat that carries people across water.", ex: "The ferry runs every hour." },
+          { word: "hostel", pos: "noun", def: "A cheap place to stay for travelers.", ex: "We stayed at a hostel." },
+          { word: "monument", pos: "noun", def: "A structure that honors a historical person or event.", ex: "The monument is in the main square." },
+          { word: "sidewalk", pos: "noun", def: "The path next to a road for walking.", ex: "Walk on the sidewalk." },
+          { word: "tunnel", pos: "noun", def: "An underground passage.", ex: "The train goes through a tunnel." }
         ]
       },
       {
         topic: "Nouns — Public Transportation",
         items: [
-          { word: "arrival", pos: "noun", def: "Time a vehicle reaches a place.", ex: "Check arrival times." },
-          { word: "departure", pos: "noun", def: "Time a vehicle leaves.", ex: "What's the departure time?" },
-          { word: "fare", pos: "noun", def: "Money paid to travel.", ex: "The subway fare is $2.50." },
-          { word: "reservation", pos: "noun", def: "Advance booking for a seat.", ex: "You need a reservation." },
-          { word: "route", pos: "noun", def: "Path a vehicle takes.", ex: "Bus 42 takes a scenic route." },
-          { word: "schedule", pos: "noun", def: "Timetable.", ex: "Check the schedule." }
+          { word: "arrival", pos: "noun", def: "The time when a vehicle reaches a place.", ex: "Check arrival times." },
+          { word: "departure", pos: "noun", def: "The time when a vehicle leaves.", ex: "What's the departure time?" },
+          { word: "fare", pos: "noun", def: "The money you pay to travel.", ex: "The subway fare is $2.50." },
+          { word: "reservation", pos: "noun", def: "A booking for a seat in advance.", ex: "You need a reservation." },
+          { word: "route", pos: "noun", def: "The path a vehicle follows.", ex: "Bus 42 takes a scenic route." },
+          { word: "schedule", pos: "noun", def: "A timetable of times.", ex: "Check the schedule." }
         ]
       },
       {
         topic: "Collocations & Modern Usage",
         items: [
-          { word: "get around town", pos: "v. phr.", def: "Moverse por la ciudad.", ex: "The best way to get around town is by bike.", register: "Colloquial/Hablado" },
-          { word: "commute-friendly", pos: "adj.", def: "Conveniente para ir al trabajo/estudio.", ex: "This neighborhood is very commute-friendly to the downtown area.", register: "Descriptivo/Informativo" },
-          { word: "rush hour", pos: "noun phrase", def: "Hora pico de tráfico.", ex: "Avoid driving during rush hour if possible.", register: "Universal/Neutral" },
-          { word: "eco-conscious traveler", pos: "noun phrase", def: "Viajero preocupado por el medio ambiente.", ex: "She prefers trains because she's an eco-conscious traveler.", register: "Moderno/Consciente" }
+          { word: "get around town", pos: "v. phr.", def: "To move from place to place in a city.", ex: "The best way to get around town is by bike.", register: "Colloquial/Spoken" },
+          { word: "commute-friendly", pos: "adj.", def: "Convenient for traveling to work or school.", ex: "This neighborhood is very commute-friendly to the downtown area.", register: "Descriptive/Informative" },
+          { word: "rush hour", pos: "noun phrase", def: "The busiest time of day for traffic.", ex: "Avoid driving during rush hour if possible.", register: "Universal/Neutral" },
+          { word: "eco-conscious traveler", pos: "noun phrase", def: "A traveler who cares about the environment.", ex: "She prefers trains because she's an eco-conscious traveler.", register: "Modern/Aware" }
         ]
       }
     ],
@@ -533,12 +535,12 @@ export const unitsData = [
     writing: {
       task: "Travel blog post about your ideal city weekend",
       skill: "Narrative sequencing with sensory details",
-      description: "Write a 120-150 word travel blog post describing a perfect weekend exploring a city, incorporating sights, sounds, and tastes.",
+      description: "Write a 120-150 word blog post about a perfect weekend in a city. Include sights, sounds, and tastes.",
       scaffolding: [
-        "Setting the Scene: Describe arrival and initial impressions (sights, smells).",
-        "Morning/Afternoon/Evening: Structure chronologically with vivid actions and descriptions.",
-        "Highlight Experience: Focus on one memorable encounter or discovery.",
-        "Closing Reflection: Share what made it ideal or recommend it."
+        "Setting: Describe your arrival and first impressions.",
+        "Morning/Afternoon/Evening: Tell what you did in order.",
+        "Highlight: Focus on one special moment.",
+        "Closing: Share why it was ideal and recommend it."
       ],
       resourceLink: "https://www.nomadicmatt.com/travel-blog-tips/"
     },
@@ -550,11 +552,11 @@ export const unitsData = [
     ],
     speaking: {
       focus: "Word Stress Patterns in Compound Nouns",
-      explanation: "Multi-word nouns typically stress the **first** word. Misplaced stress can lead to confusion.",
+      explanation: "In two-word nouns, we usually stress the first word. Example: 'TRAFFIC light' not 'traffic LIGHT'.",
       examples: ["TRAFFIC light", "SUBWAY station", "PARKING meter"],
       classroomActivity: [
-        "Stress Pattern Sorting Game: Give students cards with compound nouns. They sort into groups based on stress patterns (1st word stressed, 2nd word stressed).",
-        "Chain Description: Each student describes a place using 2-3 compound nouns, emphasizing correct stress. The next student repeats and adds."
+        "Sorting Game: Give students cards with compound nouns. They sort by stress pattern.",
+        "Chain Description: Each student describes a place using 2-3 compound nouns with correct stress. The next student repeats and adds."
       ],
       resourceLink: "https://www.cambridge.org/us/cambridgeenglish/catalogue/?isbn=9781107684986"
     },
@@ -566,11 +568,11 @@ export const unitsData = [
     ],
     listening: {
       strategy: "Direction Mapping While Listening",
-      explanation: "Train active listening by sketching a mental or physical map while someone explains directions.",
+      explanation: "While someone gives directions, draw a simple map to help you remember.",
       actionSteps: [
-        "Partner A describes a route from Point A to Point B.",
-        "Partner B draws a basic map with annotations (turn left, bridge, etc.).",
-        "Swap and repeat."
+        "Partner A describes a route from point A to point B.",
+        "Partner B draws a map with arrows and landmarks.",
+        "Switch roles and repeat."
       ],
       resources: [
         { type: "Video", title: "English Addict with Mr Steve - Asking for Directions", url: "https://www.youtube.com/watch?v=4QF6bUxYJyE" },
@@ -589,7 +591,7 @@ export const unitsData = [
     id: 4,
     title: "What Will Happen?",
     topic: "Plans, Predictions & Feelings",
-    desc: "Making predictions, talking about plans, and reassuring someone.",
+    desc: "Learn to make predictions, talk about plans, and reassure someone.",
     vocabulary: [
       {
         topic: "Adjectives — Opinions & Reactions (-ed / -ing)",
@@ -608,10 +610,10 @@ export const unitsData = [
         topic: "Verbs — Making Decisions & Plans",
         items: [
           { word: "arrange", pos: "verb", def: "Organize details in advance.", ex: "Can you arrange the meeting?" },
-          { word: "deal with", pos: "v phr", def: "Handle / take responsibility.", ex: "I'll deal with booking." },
+          { word: "deal with", pos: "v phr", def: "Handle or take responsibility for something.", ex: "I'll deal with booking." },
           { word: "get in touch with", pos: "v phr", def: "Contact someone.", ex: "I'll get in touch with them." },
-          { word: "let someone know", pos: "v phr", def: "Inform someone.", ex: "Please let me know." },
-          { word: "look into", pos: "v phr", def: "Investigate / research.", ex: "I'll look into the options." },
+          { word: "let someone know", pos: "v phr", def: "Tell or inform someone.", ex: "Please let me know." },
+          { word: "look into", pos: "v phr", def: "Investigate or research.", ex: "I'll look into the options." },
           { word: "meet up", pos: "v phr", def: "Meet informally.", ex: "Let's meet up at 6." },
           { word: "remind", pos: "verb", def: "Help someone remember.", ex: "Can you remind me tomorrow?" }
         ]
@@ -619,10 +621,10 @@ export const unitsData = [
       {
         topic: "Collocations & Modern Usage",
         items: [
-          { word: "change of plans", pos: "noun phrase", def: "Alteración de un programa previo.", ex: "Sorry, there's been a change of plans.", register: "Neutral/Formal ocasional" },
-          { word: "silver lining", pos: "noun", def: "Aspecto positivo en una situación difícil.", ex: "The silver lining is we get a free day off!", register: "Idiomático/Positivo" },
-          { word: "rain check", pos: "noun phrase", def: "Postponer una invitación educadamente.", ex: "I'll have to take a rain check on dinner tonight.", register: "Amable/Colloquial" },
-          { word: "game changer", pos: "noun", def: "Evento o cosa que altera radicalmente una situación.", ex: "Remote work has been a game changer for many industries.", register: "Moderno/Impactante" }
+          { word: "change of plans", pos: "noun phrase", def: "A modification to a previous arrangement.", ex: "Sorry, there's been a change of plans.", register: "Neutral/Occasional formal" },
+          { word: "silver lining", pos: "noun", def: "A positive aspect in a difficult situation.", ex: "The silver lining is we get a free day off!", register: "Idiomatic/Positive" },
+          { word: "rain check", pos: "noun phrase", def: "Postpone an invitation politely.", ex: "I'll have to take a rain check on dinner tonight.", register: "Friendly/Colloquial" },
+          { word: "game changer", pos: "noun", def: "An event or thing that radically changes a situation.", ex: "Remote work has been a game changer for many industries.", register: "Modern/Impactful" }
         ]
       }
     ],
@@ -724,12 +726,12 @@ export const unitsData = [
     writing: {
       task: "Email proposing a new initiative or event",
       skill: "Persuasive structure with a clear call to action",
-      description: "Draft a 100-120 word email to a supervisor or club leader suggesting a new idea and explaining its benefits.",
+      description: "Write a 100-120 word email to a supervisor or club leader suggesting a new idea and explaining its benefits.",
       scaffolding: [
-        "Subject Line: Clear and attention-grabbing.",
-        "Opening: State the proposal directly.",
+        "Subject Line: Make it clear and attention-grabbing.",
+        "Opening: State your proposal directly.",
         "Body (Benefits): Explain 2-3 key advantages.",
-        "Call to Action: Request a meeting or ask for approval/support."
+        "Call to Action: Request a meeting or ask for approval."
       ],
       resourceLink: "https://hbr.org/2018/07/how-to-write-emails-that-will-actually-get-read"
     },
@@ -741,10 +743,10 @@ export const unitsData = [
     ],
     speaking: {
       focus: "Consonant Clusters: Final /t/ Release",
-      explanation: "English has many consonant clusters. In fast speech, the final /t/ in clusters like -ft, -pt, -st should be clearly released.",
+      explanation: "English has many consonant clusters. In fast speech, the final /t/ in groups like -ft, -pt, -st should be clearly released.",
       examples: ["left: /lɛft/ (release the /t/)", "kept: /kɛpt/", "passed: /pæst/"],
       classroomActivity: [
-        "Tongue Twister Sprint: Students race to say tongue twisters with /t/ clusters (e.g., 'The thirty-three thieves thought that they thrilled the throne throughout Thursday').",
+        "Tongue Twister Sprint: Race to say tongue twisters with /t/ clusters (e.g., 'The thirty-three thieves thought that they thrilled the throne throughout Thursday').",
         "Mirror Drill: Practice releasing final consonants in front of a mirror, focusing on tongue placement."
       ],
       resourceLink: "https://rachelsenglish.com/final-consonant-clusters/"
@@ -757,7 +759,7 @@ export const unitsData = [
     ],
     listening: {
       strategy: "Decision Point Annotation",
-      explanation: "While listening to conversations about plans or decisions, pause and annotate key decision points or changes.",
+      explanation: "While listening to conversations about plans or decisions, pause and note key decision points or changes.",
       actionSteps: [
         "Listen to a dialogue about making plans.",
         "Pause at key moments and note: What changed? Why? What's the new plan?"
@@ -779,13 +781,13 @@ export const unitsData = [
     id: 5,
     title: "And Then...",
     topic: "Stories & Surprises",
-    desc: "Narrating past events, reacting with surprise, and telling stories clearly.",
+    desc: "Learn to narrate past events, react with surprise, and tell stories clearly.",
     vocabulary: [
       {
         topic: "Verbs — Losing & Finding",
         items: [
           { word: "appear", pos: "verb", def: "Come into sight unexpectedly.", ex: "My keys suddenly appeared under the sofa." },
-          { word: "disappear", pos: "verb", def: "Go missing / be lost.", ex: "My wallet disappeared on the subway." },
+          { word: "disappear", pos: "verb", def: "Go missing or be lost.", ex: "My wallet disappeared on the subway." },
           { word: "discover", pos: "verb", def: "Find something for the first time.", ex: "She discovered the ring in her pocket." },
           { word: "drop", pos: "verb", def: "Let something fall accidentally.", ex: "He dropped his passport." },
           { word: "leave behind", pos: "v phr", def: "Forget to take something when leaving.", ex: "I left my umbrella behind." },
@@ -807,10 +809,10 @@ export const unitsData = [
       {
         topic: "Collocations & Modern Usage",
         items: [
-          { word: "once upon a time", pos: "phrase", def: "Introducción clásica de cuentos.", ex: "Once upon a time, there lived a wise owl...", register: "Literario/Narrativo" },
-          { word: "out of the blue", pos: "idiom", def: "De manera completamente inesperada.", ex: "He called me out of the blue after ten years!", register: "Coloquial/Dramático" },
-          { word: "twist of fate", pos: "noun phrase", def: "Cambio imprevisto en la suerte.", ex: "Winning the lottery was a twist of fate.", register: "Literario/Romántico" },
-          { word: "turn of events", pos: "noun phrase", def: "Serie de acontecimientos que cambian el curso.", ex: "The sudden turn of events left everyone speechless.", register: "Formal/Narrativo" }
+          { word: "once upon a time", pos: "phrase", def: "Classic story opening.", ex: "Once upon a time, there lived a wise owl...", register: "Literary/Narrative" },
+          { word: "out of the blue", pos: "idiom", def: "Completely unexpected.", ex: "He called me out of the blue after ten years!", register: "Colloquial/Dramatic" },
+          { word: "twist of fate", pos: "noun phrase", def: "Unexpected change in fortune.", ex: "Winning the lottery was a twist of fate.", register: "Literary/Romantic" },
+          { word: "turn of events", pos: "noun phrase", def: "Series of events that change the course.", ex: "The sudden turn of events left everyone speechless.", register: "Formal/Narrative" }
         ]
       }
     ],
@@ -974,14 +976,14 @@ export const unitsData = [
     id: 6,
     title: "City Living",
     topic: "Urban Life & Problems",
-    desc: "Urban problems, quantities, and solutions (real conditionals).",
+    desc: "Learn to discuss urban problems, quantities, and solutions (real conditionals).",
     vocabulary: [
       {
         topic: "Nouns — Urban Problems",
         items: [
           { word: "graffiti", pos: "noun", def: "Illegal writing/drawings on walls.", ex: "There's graffiti on the bridge." },
           { word: "noise", pos: "noun", def: "Unwanted sound.", ex: "The noise keeps me awake." },
-          { word: "pollution", pos: "noun", def: "Harmful substances in air/water.", ex: "Pollution is a big problem." },
+          { word: "pollution", pos: "noun", def: "Harmful substances in air or water.", ex: "Pollution is a big problem." },
           { word: "traffic", pos: "noun", def: "Vehicles on roads.", ex: "There's so much traffic." },
           { word: "traffic jam", pos: "noun", def: "Long line of cars that can't move.", ex: "I was stuck in a traffic jam." },
           { word: "trash", pos: "noun", def: "Waste in public spaces.", ex: "There was trash everywhere." },
@@ -1002,10 +1004,10 @@ export const unitsData = [
       {
         topic: "Collocations & Modern Usage",
         items: [
-          { word: "urban jungle", pos: "noun phrase", def: "Metáfora para una ciudad congestionada y caótica.", ex: "Living in the urban jungle can be exhausting.", register: "Coloquial/Descriptivo" },
-          { word: "green space", pos: "noun phrase", def: "Área natural dentro de una ciudad.", ex: "More green spaces are needed for residents' wellbeing.", register: "Informativo/Planificación urbana" },
-          { word: "concrete jungle", pos: "noun phrase", def: "Ciudad dominada por edificios de cemento.", ex: "New York is often called a concrete jungle.", register: "Literario/Descriptivo" },
-          { word: "smart city initiatives", pos: "noun phrase", def: "Proyectos tecnológicos para mejorar ciudades.", ex: "The city launched new smart city initiatives to reduce traffic.", register: "Formal/Tecnológico" }
+          { word: "urban jungle", pos: "noun phrase", def: "Metaphor for a congested and chaotic city.", ex: "Living in the urban jungle can be exhausting.", register: "Colloquial/Descriptive" },
+          { word: "green space", pos: "noun phrase", def: "Natural area within a city.", ex: "More green spaces are needed for residents' wellbeing.", register: "Informative/Urban planning" },
+          { word: "concrete jungle", pos: "noun phrase", def: "City dominated by concrete buildings.", ex: "New York is often called a concrete jungle.", register: "Literary/Descriptive" },
+          { word: "smart city initiatives", pos: "noun phrase", def: "Technology projects to improve cities.", ex: "The city launched new smart city initiatives to reduce traffic.", register: "Formal/Technological" }
         ]
       }
     ],
@@ -1163,7 +1165,7 @@ export const unitsData = [
     id: 7,
     title: "Entertainment",
     topic: "Music, TV & Movies",
-    desc: "Discussing taste in music and TV, making comparisons.",
+    desc: "Learn to discuss taste in music and TV, and make comparisons.",
     vocabulary: [
       {
         topic: "Music Genres",
@@ -1181,7 +1183,7 @@ export const unitsData = [
       {
         topic: "TV Shows & Movies",
         items: [
-          { word: "animated movie", pos: "noun", def: "Film made with drawings/computer graphics.", ex: "The kids watched an animated movie." },
+          { word: "animated movie", pos: "noun", def: "Film made with drawings or computer graphics.", ex: "The kids watched an animated movie." },
           { word: "comedy", pos: "noun", def: "Intended to make audiences laugh.", ex: "After a stressful week, I watch a comedy." },
           { word: "documentary", pos: "noun", def: "Non-fiction film about real events.", ex: "I watched a documentary about ocean life." },
           { word: "drama", pos: "noun", def: "Serious show with realistic characters.", ex: "That crime drama has incredible acting." },
@@ -1193,10 +1195,10 @@ export const unitsData = [
       {
         topic: "Collocations & Modern Usage",
         items: [
-          { word: "must-see", pos: "adj.", def: "Que no se puede perder.", ex: "That documentary is a must-see for film buffs.", register: "Comercial/Recomendación" },
-          { word: "binge-watch", pos: "v.", def: "Ver múltiples episodios seguidos.", ex: "We binge-watched the entire season in one weekend.", register: "Moderno/Colloquial" },
-          { word: "cult classic", pos: "noun phrase", def: "Película apreciada por un grupo específico.", ex: "The Rocky Horror Picture Show became a cult classic.", register: "Cultural/Informativo" },
-          { word: "box office hit", pos: "noun phrase", def: "Película exitosa comercialmente.", ex: "Avengers was a massive box office hit.", register: "Industrial/Cultural" }
+          { word: "must-see", pos: "adj.", def: "That you can't miss.", ex: "That documentary is a must-see for film buffs.", register: "Commercial/Recommendation" },
+          { word: "binge-watch", pos: "v.", def: "Watch multiple episodes in a row.", ex: "We binge-watched the entire season in one weekend.", register: "Modern/Colloquial" },
+          { word: "cult classic", pos: "noun phrase", def: "Film appreciated by a specific group.", ex: "The Rocky Horror Picture Show became a cult classic.", register: "Cultural/Informative" },
+          { word: "box office hit", pos: "noun phrase", def: "Commercially successful film.", ex: "Avengers was a massive box office hit.", register: "Industrial/Cultural" }
         ]
       }
     ],
@@ -1314,11 +1316,11 @@ export const unitsData = [
     ],
     speaking: {
       focus: "Consonant Clusters (str-, spl-, thr-)",
-      explanation: "English allows complex consonant clusters that can be tricky for learners. Practice blending them smoothly.",
+      explanation: "English allows complex consonant clusters that can be tricky. Practice blending them smoothly.",
       examples: ["strong /strɒŋ/", "splash /splæʃ/", "three /θriː/"],
       classroomActivity: [
-        "Cluster Chain: Students take turns saying words with increasingly difficult clusters (start with 'stop', go to 'strength').",
-        "Speed Pronunciation Game: Flashcards with cluster-initial words; students say them quickly and correctly."
+        "Cluster Chain: Take turns saying words with increasingly difficult clusters (start with 'stop', go to 'strength').",
+        "Speed Pronunciation Game: Flashcards with cluster-initial words; say them quickly and correctly."
       ],
       resourceLink: "https://www.youtube.com/watch?v=3Xq6v6v6v6v6"
     },
@@ -1332,8 +1334,8 @@ export const unitsData = [
       strategy: "Comparative and Superlative Spotting",
       explanation: "While listening to reviews, note how comparatives (better than) and superlatives (best ever) are used to express opinions.",
       actionSteps: [
-        "Listen to a movie/music review.",
-        "Circle all comparative/superlative expressions.",
+        "Listen to a movie or music review.",
+        "Circle all comparative or superlative expressions.",
         "Discuss: Do these make the reviewer's opinion stronger or weaker?"
       ],
       resources: [
@@ -1353,7 +1355,7 @@ export const unitsData = [
     id: 8,
     title: "Getting There",
     topic: "Progress & Time",
-    desc: "Describing ongoing activities, talking about progress, and catching up with people.",
+    desc: "Learn to describe ongoing activities, talk about progress, and catch up with people.",
     vocabulary: [
       {
         topic: "Nouns — Describing Experiences",
@@ -1381,10 +1383,10 @@ export const unitsData = [
       {
         topic: "Collocations & Modern Usage",
         items: [
-          { word: "work in progress", pos: "noun phrase", def: "Algo que aún se está desarrollando.", ex: "My thesis is a work in progress, not final yet.", register: "Neutral/Profesional" },
-          { word: "milestone moment", pos: "noun phrase", def: "Momento significativo en un proceso.", ex: "Graduating was a milestone moment for her.", register: "Formal/Inspirador" },
-          { word: "step-by-step approach", pos: "noun phrase", def: "Método lento y organizado.", ex: "Learning a language works best with a step-by-step approach.", register: "Educativo/Instructivo" },
-          { word: "light at the end of the tunnel", pos: "idiom", def: "Señal de esperanza al final de una dificultad.", ex: "After months of studying, there's finally light at the end of the tunnel.", register: "Idiomático/Optimista" }
+          { word: "work in progress", pos: "noun phrase", def: "Something still being developed.", ex: "My thesis is a work in progress, not final yet.", register: "Neutral/Professional" },
+          { word: "milestone moment", pos: "noun phrase", def: "Significant moment in a process.", ex: "Graduating was a milestone moment for her.", register: "Formal/Inspirational" },
+          { word: "step-by-step approach", pos: "noun phrase", def: "Slow and organized method.", ex: "Learning a language works best with a step-by-step approach.", register: "Educational/Instructive" },
+          { word: "light at the end of the tunnel", pos: "idiom", def: "Sign of hope at the end of a difficulty.", ex: "After months of studying, there's finally light at the end of the tunnel.", register: "Idiomatic/Optimistic" }
         ]
       }
     ],
@@ -1538,7 +1540,7 @@ export const unitsData = [
     id: 9,
     title: "College & Work",
     topic: "Education & Employment",
-    desc: "Talking about education, jobs, workplace rules, and expressing confidence.",
+    desc: "Learn to talk about education, jobs, workplace rules, and express confidence.",
     vocabulary: [
       {
         topic: "College Subjects",
@@ -1569,10 +1571,10 @@ export const unitsData = [
       {
         topic: "Collocations & Modern Usage",
         items: [
-          { word: "land a job", pos: "v. phr.", def: "Conseguir empleo.", ex: "She finally landed a job at her dream company.", register: "Colloquial/Éxito" },
-          { word: "career trajectory", pos: "noun phrase", def: "Dirección del desarrollo profesional.", ex: "His career trajectory is pointing towards management.", register: "Profesional/Formal" },
-          { word: "side hustle", pos: "noun phrase", def: "Trabajo secundario para ganar dinero extra.", ex: "Many students have a side hustle like tutoring or freelancing.", register: "Moderno/Joven" },
-          { word: "burnout", pos: "noun", def: "Agotamiento físico o emocional.", ex: "Working 60 hours a week led to serious burnout.", register: "Salud Laboral/Actual" }
+          { word: "land a job", pos: "v. phr.", def: "Get a job.", ex: "She finally landed a job at her dream company.", register: "Colloquial/Success" },
+          { word: "career trajectory", pos: "noun phrase", def: "Direction of professional development.", ex: "His career trajectory is pointing towards management.", register: "Professional/Formal" },
+          { word: "side hustle", pos: "noun phrase", def: "Secondary job to earn extra money.", ex: "Many students have a side hustle like tutoring or freelancing.", register: "Modern/Young" },
+          { word: "burnout", pos: "noun", def: "Physical or emotional exhaustion.", ex: "Working 60 hours a week led to serious burnout.", register: "Occupational health/Current" }
         ]
       }
     ],
@@ -1690,7 +1692,7 @@ export const unitsData = [
       explanation: "English is stress-timed; stressed syllables are louder and longer, unstressed syllables are reduced.",
       examples: ["em-PLOY-er", "e-CON-o-mics", "ar-chi-TEC-ture"],
       classroomActivity: [
-        "Beatboxing Stress: Students clap/snap on stressed syllables while whispering unstressed ones.",
+        "Beatboxing Stress: Clap or snap on stressed syllables while whispering unstressed ones.",
         "Word Pyramid: Build words layering syllables, emphasizing stress shift (eco-NOM-ics → eco-NOM-i-CAL)."
       ],
       resourceLink: "https://rachelsenglish.com/word-stress-rhythm/"
@@ -1726,12 +1728,12 @@ export const unitsData = [
     id: 10,
     title: "What Is It Made Of?",
     topic: "Materials & Products",
-    desc: "Describing materials, production processes, and where things come from.",
+    desc: "Learn to describe materials, production processes, and where things come from.",
     vocabulary: [
       {
         topic: "Materials",
         items: [
-          { word: "cotton", pos: "noun", def: "Soft natural fabric from cotton plant.", ex: "My favorite T-shirt is made of cotton." },
+          { word: "cotton", pos: "noun", def: "Soft natural fabric from the cotton plant.", ex: "My favorite T-shirt is made of cotton." },
           { word: "glass", pos: "noun", def: "Hard transparent material from sand.", ex: "The vase is made of glass." },
           { word: "leather", pos: "noun", def: "Durable material from animal skin.", ex: "These boots are real leather." },
           { word: "metal", pos: "noun", def: "Hard shiny material like iron.", ex: "The frame is made of metal." },
@@ -1747,7 +1749,7 @@ export const unitsData = [
           { word: "artificial", pos: "adj", def: "Made by humans, not natural.", ex: "The flowers are artificial." },
           { word: "fragile", pos: "adj", def: "Easily broken.", ex: "The glassware is fragile." },
           { word: "natural", pos: "adj", def: "Coming from nature.", ex: "Natural materials are eco-friendly." },
-          { word: "waterproof", pos: "adj", def: "Not allowing water through.", ex: "My boots are waterproof." },
+          { word: "waterproof", pos: "adj", def: "Does not allow water through.", ex: "My boots are waterproof." },
           { word: "manufacture", pos: "verb", def: "Make goods in large quantities.", ex: "The company manufactures furniture." },
           { word: "import", pos: "verb", def: "Bring goods into a country.", ex: "We import coffee from Colombia." },
           { word: "export", pos: "verb", def: "Send goods out of a country.", ex: "Mexico exports avocados." }
@@ -1756,10 +1758,10 @@ export const unitsData = [
       {
         topic: "Collocations & Modern Usage",
         items: [
-          { word: "eco-friendly", pos: "adj.", def: "Amigable con el medio ambiente.", ex: "This bottle is made from eco-friendly materials.", register: "Moderno/Responsabilidad Social" },
-          { word: "sustainable fashion", pos: "noun phrase", def: "Ropa producida de forma responsable.", ex: "She only buys sustainable fashion brands now.", register: "Moda/Conciencia" },
-          { word: "built to last", pos: "adj. phrase", def: "Construido para durar mucho tiempo.", ex: "Quality furniture is built to last.", register: "Consumo/Valor" },
-          { word: "single-use plastic", pos: "noun phrase", def: "Plástico diseñado para un solo uso.", ex: "Many countries are banning single-use plastic bags.", register: "Ambiental/Política" }
+          { word: "eco-friendly", pos: "adj.", def: "Friendly to the environment.", ex: "This bottle is made from eco-friendly materials.", register: "Modern/Social responsibility" },
+          { word: "sustainable fashion", pos: "noun phrase", def: "Clothing produced responsibly.", ex: "She only buys sustainable fashion brands now.", register: "Fashion/Awareness" },
+          { word: "built to last", pos: "adj. phrase", def: "Made to last a long time.", ex: "Quality furniture is built to last.", register: "Consumption/Value" },
+          { word: "single-use plastic", pos: "noun phrase", def: "Plastic designed for one use only.", ex: "Many countries are banning single-use plastic bags.", register: "Environmental/Policy" }
         ]
       }
     ],
@@ -1913,7 +1915,7 @@ export const unitsData = [
     id: 11,
     title: "Moving On",
     topic: "Life Changes & Decisions",
-    desc: "Talking about risks, opportunities, imaginary situations, and life decisions.",
+    desc: "Learn to talk about risks, opportunities, imaginary situations, and life decisions.",
     vocabulary: [
       {
         topic: "Nouns — Opportunities & Risks",
@@ -1936,17 +1938,17 @@ export const unitsData = [
           { word: "give up", pos: "phr v", def: "Stop trying.", ex: "Don't give up — you're so close!" },
           { word: "keep something up", pos: "phr v", def: "Continue doing something.", ex: "Keep it up and you'll pass!" },
           { word: "set something up", pos: "phr v", def: "Create or establish.", ex: "She set up her own online store." },
-          { word: "stand out", pos: "phr v", def: "Be noticeably different/better.", ex: "You need to stand out from other applicants." },
+          { word: "stand out", pos: "phr v", def: "Be noticeably different or better.", ex: "You need to stand out from other applicants." },
           { word: "work out", pos: "phr v", def: "Have a successful result.", ex: "Moving abroad really worked out." }
         ]
       },
       {
         topic: "Collocations & Modern Usage",
         items: [
-          { word: "take the plunge", pos: "v. phr.", def: "Arriesgarse a hacer algo importante.", ex: "After months of planning, she finally took the plunge and started her own business.", register: "Coloquial/Decisivo" },
-          { word: "leap of faith", pos: "noun phrase", def: "Decisión basada en confianza, no en pruebas.", ex: "Moving abroad was a leap of faith, but it paid off.", register: "Inspirador/Filosófico" },
-          { word: "crossroads moment", pos: "noun phrase", def: "Punto crítico donde hay que tomar una decisión.", ex: "Graduation was a crossroads moment that shaped his future.", register: "Literario/Reflexivo" },
-          { word: "pivot point", pos: "noun phrase", def: "Cambio fundamental en dirección o estrategia.", ex: "The pandemic became a pivot point for many companies to go digital.", register: "Moderno/Negocios" }
+          { word: "take the plunge", pos: "v. phr.", def: "Take a risk to do something important.", ex: "After months of planning, she finally took the plunge and started her own business.", register: "Colloquial/Decisive" },
+          { word: "leap of faith", pos: "noun phrase", def: "Decision based on trust, not proof.", ex: "Moving abroad was a leap of faith, but it paid off.", register: "Inspirational/Philosophical" },
+          { word: "crossroads moment", pos: "noun phrase", def: "Critical point where you must make a decision.", ex: "Graduation was a crossroads moment that shaped his future.", register: "Literary/Reflective" },
+          { word: "pivot point", pos: "noun phrase", def: "Fundamental change in direction or strategy.", ex: "The pandemic became a pivot point for many companies to go digital.", register: "Modern/Business" }
         ]
       }
     ],
@@ -2104,7 +2106,7 @@ export const unitsData = [
     id: 12,
     title: "What a Story!",
     topic: "Extreme Experiences & Stories",
-    desc: "Describing extreme feelings, accidents, and using reported speech.",
+    desc: "Learn to describe extreme feelings, accidents, and use reported speech.",
     vocabulary: [
       {
         topic: "Adjectives — Describing Extremes",
@@ -2135,10 +2137,10 @@ export const unitsData = [
       {
         topic: "Collocations & Modern Usage",
         items: [
-          { word: "hair-raising", pos: "adj.", def: "Muy emocionante o aterrador.", ex: "The escape from the burning building was hair-raising.", register: "Narrativo/Dramático" },
-          { word: "edge of your seat", pos: "adj. phrase", def: "Muy emocionado o intrigado.", ex: "The thriller kept everyone on the edge of their seats.", register: "Expresivo/Entretenimiento" },
-          { word: "larger than life", pos: "adj. phrase", def: "Exagerado o sobrenatural.", ex: "The legend of the haunted house grew larger than life with each retelling.", register: "Literario/Folklore" },
-          { word: "come full circle", pos: "v. phr.", def: "Regresar al punto de inicio, completando un ciclo.", ex: "After twenty years, his career came full circle back to his roots.", register: "Reflexivo/Completo" }
+          { word: "hair-raising", pos: "adj.", def: "Very exciting or terrifying.", ex: "The escape from the burning building was hair-raising.", register: "Narrative/Dramatic" },
+          { word: "edge of your seat", pos: "adj. phrase", def: "Very excited or intrigued.", ex: "The thriller kept everyone on the edge of their seats.", register: "Expressive/Entertainment" },
+          { word: "larger than life", pos: "adj. phrase", def: "Exaggerated or supernatural.", ex: "The legend of the haunted house grew larger than life with each retelling.", register: "Literary/Folklore" },
+          { word: "come full circle", pos: "v. phr.", def: "Return to the starting point, completing a cycle.", ex: "After twenty years, his career came full circle back to his roots.", register: "Reflective/Complete" }
         ]
       }
     ],
