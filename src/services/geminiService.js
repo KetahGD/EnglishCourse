@@ -31,24 +31,8 @@ Respond with JSON: {"comment": "2-3 sentences feedback", "score": 0-10}`;
 }
 
 export async function generateGrammarQuiz(topicName, unitTitle, numQuestions = 5) {
-  const prompt = `Create ${numQuestions} B1 multiple choice questions about "${topicName}". Return JSON array only: [{"question":"...","options":["..."],"correct":0,"feedback":"..."}]`;
-  try {
-    const res = await fetch(API_URL, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: { temperature: 0.7, maxOutputTokens: 1000 }
-      })
-    });
-    const data = await res.json();
-    const text = data.candidates?.[0]?.content?.parts?.[0]?.text || '[]';
-    const clean = text.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
-    const match = clean.match(/\[[\s\S]*\]/);
-    return match ? JSON.parse(match[0]) : [];
-  } catch (error) {
-    return { error: error.message };
-  }
+  // Ya no se usa porque usamos banco estático, pero lo dejamos por compatibilidad
+  return [];
 }
 
 export async function checkApiKeyStatus() {
